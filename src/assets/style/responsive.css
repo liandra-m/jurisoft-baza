@@ -1,0 +1,17 @@
+@media screen and (max-width: 640px) {
+    :root {
+        --font-size-0: 42px;
+        --font-size-1: 32px;
+        --font-size-2: 24px;
+        --font-size-3: 18px;
+        --font-size-4: 16px;
+    }  
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}

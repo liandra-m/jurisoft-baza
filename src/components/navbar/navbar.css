@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 1em;
+    min-height: 60px;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.nav a {
+    display: flex;
+    text-decoration: none;
+    color: var(--grey);
+    margin: 0 1.25em;
+}
+
+.nav a:hover, .nav .active {
+    color: var(--primary-color)
+}
+
+.nav a svg{
+    margin-left: 10px;
+}
+
+.nav .nav-items {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.nav .hamburguer {
+    width: 32px;
+    height: 32px;
+}
+
+.nav .hamburguer:hover {
+    cursor: pointer;
+}

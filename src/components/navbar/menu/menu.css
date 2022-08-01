@@ -1,0 +1,24 @@
+.menu-box {
+    background-color: white;
+    border-top: 3px solid var(--primary-color);
+    border-radius: 2px;
+    position: absolute;
+    min-height: 100px;
+    padding: .25em;
+    box-shadow: 1px 15px 20px 1px rgba(56, 91, 189, 0.4);
+    top: 40px;
+}
+
+.menu-box ul li {
+    margin: 25px;
+}
+
+.menu-box ul li a {
+    color: var(--primary-text);
+    text-decoration: none;
+    transition: .25s ease;
+}
+
+.menu-box ul li a:hover {
+    color: var(--dark);
+}

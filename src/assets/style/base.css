@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './animations.css';
+
+:root {
+    --primary-color: #316ae9;
+    --secondary-color: #cad5f9;
+    --grey: #54595F;
+    --green: #308b5c;
+    --dark: #1b2832;
+    --primary-text: #7A7A7A;
+    --secondary-text: #61CE70;
+    --main-font: 'Roboto';
+
+    --font-size-0: 54px;
+    --font-size-1: 48px;
+    --font-size-2: 32px;
+    --font-size-3: 24px;
+    --font-size-4: 18px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--main-font);
+    box-sizing: border-box;
+	outline: none;
+	outline-offset: 0;
+	box-shadow: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 10px;
+    font-weight: bold;
+    text-align: center;
+    min-width: 100px;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+    -webkit-animation: up .5s forwards;
+    -moz-animation: up .5s forwards;
+}
+
+.btn-grey {
+    background-color: #fff;
+    border: var(--grey) 2px solid;
+    border-radius: 25px;
+}
+
+.btn-grey:hover{
+    background-color: var(--grey);
+    color: #fff !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.max-w {
+    max-width: 480px;
+}
+
+.align-base {
+    text-align: start;
+}
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
